@@ -1,5 +1,5 @@
 # piholeBigAddList
-to add the list's from url.txt ( Default: https://firebog.net ) to your pihole via selenium.
+to add the list's from url.txt ( Default: https://firebog.net ) to your pihole via selenium.\
 Only pihole-ip and password are required
 
 # Install

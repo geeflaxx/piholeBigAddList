@@ -14,7 +14,7 @@ piholeURL = input("Your PiHole Adress:")
 piholeURL = "http://" + piholeURL
 
 ############ Login ############
-print(f"Try Login to: {piholeURL}")
+print(f"Try to login to: {piholeURL}")
 password = input("password: ")
 driver = webdriver.Chrome()
 driver.get(f'{piholeURL}/admin/index.php?login')
@@ -25,7 +25,7 @@ login.submit()
 
 ############ add list ############
 url = piholeURL + "/admin/groups-adlists.php"
-print(f"connected to {url}")
+print(f"Connect to {url}")
 driver.get(url)
 
 ############ add all URL in your PiHole ############
@@ -49,7 +49,7 @@ text.close()
 ############ update ############
 
 url = piholeURL + "/admin/gravity.php"
-print(f"connected to :{url}")
+print(f"Connect to :{url}")
 driver.get(url)
 
 updateField = driver.find_element_by_id("gravityBtn")

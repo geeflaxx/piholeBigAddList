@@ -4,7 +4,7 @@ import time
 
 
 print('################################################')
-print("use the script if you are confirm with links.txt")
+print("use the script if you are confirm with url.txt")
 print('################################################')
 
 
